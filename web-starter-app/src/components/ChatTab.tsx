@@ -32,7 +32,6 @@ export function ChatTab() {
       id: 'welcome',
       role: 'assistant',
       text: 'Describe a pricing move and I will turn it into a simulation. Try a discount or a price increase.',
-      metadataNote: 'Using backend AI parsing when available, with local fallback logic if no API key is configured.',
     },
   ]);
   const [input, setInput] = useState('');

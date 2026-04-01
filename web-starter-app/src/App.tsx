@@ -3,17 +3,20 @@ import { ChatTab } from './components/ChatTab';
 export function App() {
   return (
     <div className="app">
-      <header className="app-header">
-        <div>
-          <p className="eyebrow">AI Pricing Sandbox</p>
-          <h1>Business Twin</h1>
-        </div>
-        <span className="badge">Full Stack</span>
-      </header>
+      <div className="layout">
+  
+  <div className="left">
+    <header className="app-header">
+      <p className="eyebrow">AI Pricing Sandbox</p>
+      <h2>Business Twin</h2>
+    </header>
+  </div>
 
-      <main className="tab-content">
-        <ChatTab />
-      </main>
+  <div className="right">
+    <ChatTab />
+  </div>
+
+</div>
     </div>
   );
 }
