@@ -1,0 +1,10 @@
+{
+  "name": "runanywhere-business-twin-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix web-starter-app\" \"npm run backend --prefix web-starter-app\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
